@@ -25,7 +25,7 @@ Cat &Cat::operator=(const Cat &copy)
     return (*this);
 }
 
-void Cat::makeSound() const
+virtual void Cat::makeSound() const
 {
     std::cout << "Meow meow" << std::endl;
 }
