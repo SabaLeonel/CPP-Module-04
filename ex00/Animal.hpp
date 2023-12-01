@@ -7,7 +7,7 @@ class Animal
 {
     public:
         Animal();
-        ~Animal();
+        virtual ~Animal();
         Animal(std::string type);
         Animal(const Animal &copy);
         Animal &operator=(const Animal &copy);

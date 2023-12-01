@@ -34,9 +34,5 @@ int main(void)
 	for (int i = 0; i < 4; i++)
 		delete tab[i];
 
-	//not allowed
-	Animal *animal = new Animal();
-	delete animal;
-
     return 0;
 }
